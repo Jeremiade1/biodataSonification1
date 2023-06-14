@@ -2,20 +2,20 @@
 GOOD MORNING USA 
 
 Dans ce travail/recherche, je m'intéresse à la notion de databionosification.
-je désire perfomer pour les plantes, avec des instruments qui arrivent à raisonner avec leurs affects relatifs.
+je désire perfomer pour les plantes, avec des instruments qui arrivent à résonner avec leurs affects relatifs.
 
-Pour ce faire, j'ai d'abord scrupter le travail existant de mes pairs sur github, et youtube. 
+Pour ce faire, j'ai d'abord scruté le travail existant de mes pairs sur github, et youtube. 
 
-j'ai d'abord découvert le travail de Leslie Garcia. Son projet Pulsum Plantae (https://github.com/Lessnullvoid/Pulsum-Plantae) fut la base de mon exploration autour de la biodatasonificatin. 
+j'ai découvert le travail de Leslie Garcia. Son projet Pulsum Plantae (https://github.com/Lessnullvoid/Pulsum-Plantae) fut la base de mon exploration autour de la biodatasonification. 
 Son github fournit une base solide sur les procédés et dévelopemment nécessaire. 
 
-J'ai aussi choisi d'utiliser Pure Data, pour synthoniser les data capter de mes plantes. Le youtubeur et artiste audivisuel, Takumi Ogata, est une source que j'ai pu consulté de manière hebdomadaire pour ce qui était du développement sur Pd. (https://www.youtube.com/@SoundSimulator/videos) 
+J'ai aussi choisi d'utiliser Pure Data, pour synthoniser les données captées de mes plantes. Le youtubeur et artiste audivisuel, Takumi Ogata, est une source que j'ai pu consulté de manière hebdomadaire pour ce qui était du développement sur Pd. (https://www.youtube.com/@SoundSimulator/videos) 
 
-Dans ce README, je vais tenter de résumer les matériaux et patch que j'utilise pour reflèter la notion de opensource qui m'a permi d'apprendre généreusement dans ce champ d'expertise.
+Dans ce README, je vais tenter de résumer les matériaux et patchs que j'utilise pour reflèter la notion de opensource qui m'a permi d'apprendre généreusement dans ce champ d'expertise.
 
 
 //MATÉRIEL:
-(MAC)
+ - (Mac ou autres)
 
 - Arduino Duemilanove
   ![354442546_806576880714725_6290857087937855877_n](https://github.com/Jeremiade1/biodataSonification1/assets/133068304/f333d119-b51d-4642-8524-e2abb30fb87c)
