@@ -124,5 +124,8 @@ Pour modifier ce son, augmenter le pitch, utiliser le slider vertical ( celui en
 
 humidifier les electrodes avec de l'eau( cela marche le mieux avec un spray gun) 
 
+ici une exemple filmer de mes expérimentations
+https://youtube.com/shorts/spOaQiQdZQg?feature=share
+
 
 
