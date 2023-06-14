@@ -74,6 +74,10 @@ Le synthétiseur est développé par Ogata pour sonofier les biodata.
 
 ![354395823_770987821430554_8631611085778958948_n](https://github.com/Jeremiade1/biodataSonification1/assets/133068304/c9f2b430-cc1e-4b60-8818-88190a3d250f)
    
+  - connecter les electrodes sur une plantes ( j'utilise ma main comme exemple) ( Les gel electrode vont mesure la résistance électrique entre deux objets physique 
+  
+![354392851_113732735067487_8859888815789948441_n](https://github.com/Jeremiade1/biodataSonification1/assets/133068304/3e0952eb-c9bb-4b9c-947c-920d09fbbe1d)
+
 
 
 
