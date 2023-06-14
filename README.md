@@ -91,7 +91,13 @@ appuyer sur la loupe en haut à droite
 
 à cette étape vous devriez recevoir des données provenant de votre circuit dans la boite en blanc 
 
+fermer l'app arduino puis ouvrer la patch Pd ( vous allez toujours capter des données)
 
+cochez DSP dans la fenêtre de base de Pd 
+<img width="492" alt="Capture d’écran, le 2023-06-14 à 11 28 58" src="https://github.com/Jeremiade1/biodataSonification1/assets/133068304/a473a073-1554-43df-aa26-1e131426be22">
+
+pour commencer à envoyer les datas de arduino vers Pd : 
+ -  clicker sur la boite message open 2 de la patch ( cela devrait ouvrir le port /dev/tty.usbserial-A9007uWR )
 
 
 
