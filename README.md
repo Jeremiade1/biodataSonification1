@@ -46,6 +46,8 @@ Dans ce README, je vais tenter de résumer les matériaux et patch que j'utilise
 
 //Patch Pure data
 
+<img width="964" alt="Capture d’écran, le 2023-06-14 à 11 00 30" src="https://github.com/Jeremiade1/biodataSonification1/assets/133068304/7f9782de-b039-4307-9241-600a501020e7">
+
 j'utilise un synthétiseur développé par Ogata pour illustrer la biodata,
 
 
@@ -60,4 +62,9 @@ j'utilise un synthétiseur développé par Ogata pour illustrer la biodata,
 <img width="247" alt="Capture d’écran, le 2023-06-14 à 10 53 59" src="https://github.com/Jeremiade1/biodataSonification1/assets/133068304/20b8b737-6685-43a8-90dc-3d5ea295eced">
 
   - l'objet Pd Iem_alisttosym bug souvent. Pour s'assurer qu'il fonctionne garder l'objet iemlib ouvert
+  
+
+//Pour envoyer les datas capturer par la chip GSR, depuis arduino vers pure data : 
+
+
 
