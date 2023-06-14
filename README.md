@@ -28,7 +28,8 @@ Dans ce README, je vais tenter de résumer les matériaux et patchs que j'utilis
 
 - une chip GSR v1.2
   ![354442538_967026061192193_6853380425506041961_n](https://github.com/Jeremiade1/biodataSonification1/assets/133068304/6f163f21-d0d6-4af1-bfa8-5c045796c6b9)
-  https://wiki.seeedstudio.com/Grove-GSR_Sensor/ 
+ 
+ https://wiki.seeedstudio.com/Grove-GSR_Sensor/ 
   la partie senseur a été remplacer par d'autres électrodes ( sur dijikey: 1568-1803-ND ) 
   ceux-ci sont été hacker pour ''fiter'' les senseurs 
   ![353102774_747490517124874_2244645358293791423_n](https://github.com/Jeremiade1/biodataSonification1/assets/133068304/1092ac9b-3161-42ad-97d3-26bd57e44d3a)
