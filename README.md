@@ -39,10 +39,7 @@ Dans ce README, je vais tenter de résumer les matériaux et patch que j'utilise
 
 
 //CODAGE ( Arduino) 
-
-<img width="489" alt="Capture d’écran, le 2023-06-14 à 10 38 12" src="https://github.com/Jeremiade1/biodataSonification1/assets/133068304/9d7468df-4bae-491f-b678-8eedc55281db">
-
-
+https://github.com/Jeremiade1/biodataSonification1/tree/main/code/bonjoursensor_copy_20230614115523
 
 //Patch Pure data
 
