@@ -26,21 +26,35 @@ Dans ce README, je vais tenter de résumer les matériaux et patch que j'utilise
 - adapteur usb C to usb
   ![353130701_818002053007148_2358090501214796663_n](https://github.com/Jeremiade1/biodataSonification1/assets/133068304/41d9a563-d923-4ee9-a1c4-21af5356c808)
 
-
 - une chip GSR v1.2
-   ![354442538_967026061192193_6853380425506041961_n](https://github.com/Jeremiade1/biodataSonification1/assets/133068304/6f163f21-d0d6-4af1-bfa8-5c045796c6b9)
+  ![354442538_967026061192193_6853380425506041961_n](https://github.com/Jeremiade1/biodataSonification1/assets/133068304/6f163f21-d0d6-4af1-bfa8-5c045796c6b9)
 
 - des jumperwire de couleurs 
-  ![354422352_646363777002375_537094724174746239_n](https://github.com/Jeremiade1/biodataSonification1/assets/133068304/b85bd435-082f-410a-a72d-c6fb99adfaaf)
+   ![354422352_646363777002375_537094724174746239_n](https://github.com/Jeremiade1/biodataSonification1/assets/133068304/b85bd435-082f-410a-a72d-c6fb99adfaaf)
 
  - des gel electrodes 
-![354411971_166035629782804_1645680762681585431_n](https://github.com/Jeremiade1/biodataSonification1/assets/133068304/1758154d-9256-4cb3-8827-17d9cd3686cb)
+   ![354411971_166035629782804_1645680762681585431_n](https://github.com/Jeremiade1/biodataSonification1/assets/133068304/1758154d-9256-4cb3-8827-17d9cd3686cb)
 
 
 CODAGE ( Arduino) 
 
 <img width="489" alt="Capture d’écran, le 2023-06-14 à 10 38 12" src="https://github.com/Jeremiade1/biodataSonification1/assets/133068304/9d7468df-4bae-491f-b678-8eedc55281db">
 
+#Patch Pure data
+
+j'utilise un synthétiseur développer par Ogata pour illustrer la biodata,
+
+
+<img width="942" alt="Capture d’écran, le 2023-06-14 à 10 42 03" src="https://github.com/Jeremiade1/biodataSonification1/assets/133068304/9703673c-e9f3-4685-8860-fbbe5600b27d">
+
+l'objet Pd Iem_alisttosym bug souvent. Pour le debbuger essayé de réinstaller 
+
+
+<img width="841" alt="Capture d’écran, le 2023-06-14 à 10 44 23" src="https://github.com/Jeremiade1/biodataSonification1/assets/133068304/e55d8f8c-a6a7-4d90-a590-e7eb7a0c4ae9">
+
+<img width="841" alt="Capture d’écran, le 2023-06-14 à 10 44 42" src="https://github.com/Jeremiade1/biodataSonification1/assets/133068304/3de8fb64-a4ed-469b-9ed1-a7c703e52055">
+
+<img width="765" alt="Capture d’écran, le 2023-06-14 à 10 44 58" src="https://github.com/Jeremiade1/biodataSonification1/assets/133068304/aed876a2-8497-4a1d-87a9-9f37ca31f9a6">
 
 
 
