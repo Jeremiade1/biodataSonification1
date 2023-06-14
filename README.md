@@ -61,7 +61,7 @@ https://github.com/Jeremiade1/biodataSonification1/blob/main/code/pure%20data/Bi
 <img width="964" alt="Capture d’écran, le 2023-06-14 à 11 02 37" src="https://github.com/Jeremiade1/biodataSonification1/assets/133068304/e5342c7c-c58f-416c-a1d4-c66c2bc65231">
 
 Dans cette patch, il y a un port de arduino vers Pd, un synthétiseur qui transforme les data en objets sonore, et un visualisateur 
-Le synthétiseur est développé par Ogata pour sonofier les biodata. 
+Le synthétiseur est développé par Ogata pour sonofier les biodata. Elle a été aussi fait pour accomoder un photosenseur, mais cela est facultatif 
 
 
 <img width="942" alt="Capture d’écran, le 2023-06-14 à 10 42 03" src="https://github.com/Jeremiade1/biodataSonification1/assets/133068304/9703673c-e9f3-4685-8860-fbbe5600b27">
