@@ -46,9 +46,10 @@ Dans ce README, je vais tenter de résumer les matériaux et patch que j'utilise
 
 //Patch Pure data
 
-<img width="964" alt="Capture d’écran, le 2023-06-14 à 11 00 30" src="https://github.com/Jeremiade1/biodataSonification1/assets/133068304/7f9782de-b039-4307-9241-600a501020e7">
+<img width="964" alt="Capture d’écran, le 2023-06-14 à 11 02 37" src="https://github.com/Jeremiade1/biodataSonification1/assets/133068304/e5342c7c-c58f-416c-a1d4-c66c2bc65231">
 
-j'utilise un synthétiseur développé par Ogata pour illustrer la biodata,
+Dans cette patch, il y a un port de arduino vers Pd, un synthétiseur qui transforme les data en objets sonore, et un visualisateur 
+Le synthétiseur est développé par Ogata pour sonofier les biodata. 
 
 
 <img width="942" alt="Capture d’écran, le 2023-06-14 à 10 42 03" src="https://github.com/Jeremiade1/biodataSonification1/assets/133068304/9703673c-e9f3-4685-8860-fbbe5600b27">
@@ -64,7 +65,16 @@ j'utilise un synthétiseur développé par Ogata pour illustrer la biodata,
   - l'objet Pd Iem_alisttosym bug souvent. Pour s'assurer qu'il fonctionne garder l'objet iemlib ouvert
   
 
-//Pour envoyer les datas capturer par la chip GSR, depuis arduino vers pure data : 
+// Pour envoyer les datas capturer par la chip GSR, puis arduino vers pure data : 
+
+![354395823_770987821430554_8631611085778958948_n](https://github.com/Jeremiade1/biodataSonification1/assets/133068304/c7c9f558-fa46-4e61-a79a-81088aebdb66)
+  - brancher les jumperwire dans le arduino
+    - rouge: 5 Volt
+    - noir: ground ( GND )
+    - BLEU : ANALOG IN 0 
+![354395823_770987821430554_8631611085778958948_n](https://github.com/Jeremiade1/biodataSonification1/assets/133068304/c9f2b430-cc1e-4b60-8818-88190a3d250f)
+   
+
 
 
 
