@@ -1,5 +1,5 @@
 # biodataSonification1
-GOOD MORNING USA 
+GOOD MORNING VIETNAM  
 
 Dans ce travail/recherche, je m'intéresse à la notion de databionosification.
 je désire perfomer pour les plantes, avec des instruments qui arrivent à résonner avec leurs affects relatifs.
