@@ -31,7 +31,7 @@ Dans ce README, je vais tenter de résumer les matériaux et patchs que j'utilis
  https://wiki.seeedstudio.com/Grove-GSR_Sensor/
 
 - la partie senseur a été remplacer par d'autres électrodes ( sur dijikey: 1568-1803-ND ) 
-  ceux-ci sont été hacker pour ''fiter'' les senseurs 
+  ceux-ci sont été hacker pour ''fiter'' avec les electrodes
   
   ![353102774_747490517124874_2244645358293791423_n](https://github.com/Jeremiade1/biodataSonification1/assets/133068304/1092ac9b-3161-42ad-97d3-26bd57e44d3a)
 
@@ -39,11 +39,11 @@ Dans ce README, je vais tenter de résumer les matériaux et patchs que j'utilis
 - des jumperwire de couleurs 
    ![354422352_646363777002375_537094724174746239_n](https://github.com/Jeremiade1/biodataSonification1/assets/133068304/b85bd435-082f-410a-a72d-c6fb99adfaaf)
 
- - des gel electrodes 
+ - des gel electrodes  
    ![354411971_166035629782804_1645680762681585431_n](https://github.com/Jeremiade1/biodataSonification1/assets/133068304/1758154d-9256-4cb3-8827-17d9cd3686cb)
    
   sur  https://www.amazon.ca/dp/B08XXVW3PK?psc=1&ref=ppx_yo2ov_dt_b_product_details 
-  il existe problablement une alternative 
+       *il existe problablement une alternative, mais j'utilise ceux-ci
 
 
 
