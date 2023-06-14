@@ -14,7 +14,7 @@ J'ai aussi choisi d'utiliser Pure Data, pour synthoniser les data capter de mes 
 Dans ce README, je vais tenter de résumer les matériaux et patch que j'utilise pour reflèter la notion de opensource qui m'a permi d'apprendre généreusement dans ce champ d'expertise.
 
 
-#MATÉRIEL:
+//MATÉRIEL:
 (MAC)
 
 - Arduino Duemilanove
@@ -103,7 +103,8 @@ pour commencer à envoyer les datas de arduino vers Pd :
 <img width="496" alt="Capture d’écran, le 2023-06-14 à 11 35 06" src="https://github.com/Jeremiade1/biodataSonification1/assets/133068304/8a19d58b-4cf5-4943-929e-a7ca90f88671">
 
 
-* Astuces de modulation 
+
+// Astuces de modulation 
 
 Maintenant vous devriez avoir du son, provonant d'une résistance électrique d'une plante ou autre.
 
