@@ -83,7 +83,7 @@ sur arduino ( j'utilise Arduino IDE 2.1.0)
       dans mon cas: 
 <img width="964" alt="Capture d’écran, le 2023-06-14 à 11 22 11" src="https://github.com/Jeremiade1/biodataSonification1/assets/133068304/384126dc-bf3a-4723-a0ce-7a7b7405b5b2">
 
-puis, Verify et Upload le code vers Arduino 
+puis, Verify et Upload le code vers Arduino ( en haut à gauche )
 <img width="698" alt="Capture d’écran, le 2023-06-14 à 11 23 28" src="https://github.com/Jeremiade1/biodataSonification1/assets/133068304/362e46ec-73f5-4d83-8ed8-c20374b6d814">
 
 appuyer sur la loupe en haut à droite 
@@ -98,7 +98,9 @@ cochez DSP dans la fenêtre de base de Pd
 
 pour commencer à envoyer les datas de arduino vers Pd : 
  -  clicker sur la boite message open 2 de la patch ( cela devrait ouvrir le port /dev/tty.usbserial-A9007uWR )
-
+  pour confirmer, dans la fenêtre principal, vous devriez recevoir ce message venant de [comport] 
+  
+<img width="496" alt="Capture d’écran, le 2023-06-14 à 11 35 06" src="https://github.com/Jeremiade1/biodataSonification1/assets/133068304/8a19d58b-4cf5-4943-929e-a7ca90f88671">
 
 
 
