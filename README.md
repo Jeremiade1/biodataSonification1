@@ -41,6 +41,7 @@ Dans ce README, je vais tenter de résumer les matériaux et patchs que j'utilis
 
  - des gel electrodes 
    ![354411971_166035629782804_1645680762681585431_n](https://github.com/Jeremiade1/biodataSonification1/assets/133068304/1758154d-9256-4cb3-8827-17d9cd3686cb)
+   
   sur  https://www.amazon.ca/dp/B08XXVW3PK?psc=1&ref=ppx_yo2ov_dt_b_product_details 
   il existe problablement une alternative 
 
