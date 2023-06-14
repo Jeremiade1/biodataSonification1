@@ -78,6 +78,21 @@ Le synthétiseur est développé par Ogata pour sonofier les biodata.
   
 ![354392851_113732735067487_8859888815789948441_n](https://github.com/Jeremiade1/biodataSonification1/assets/133068304/3e0952eb-c9bb-4b9c-947c-920d09fbbe1d)
 
+sur arduino ( j'utilise Arduino IDE 2.1.0)
+- assurer vous d'utiliser le bon port 
+      dans mon cas: 
+<img width="964" alt="Capture d’écran, le 2023-06-14 à 11 22 11" src="https://github.com/Jeremiade1/biodataSonification1/assets/133068304/384126dc-bf3a-4723-a0ce-7a7b7405b5b2">
+
+puis, Verify et Upload le code vers Arduino 
+<img width="698" alt="Capture d’écran, le 2023-06-14 à 11 23 28" src="https://github.com/Jeremiade1/biodataSonification1/assets/133068304/362e46ec-73f5-4d83-8ed8-c20374b6d814">
+
+appuyer sur la loupe en haut à droite 
+<img width="922" alt="Capture d’écran, le 2023-06-14 à 11 24 40" src="https://github.com/Jeremiade1/biodataSonification1/assets/133068304/e9cc6e2f-9ad5-48d0-83e5-5daacd6b6553">
+
+à cette étape vous devriez recevoir des données provenant de votre circuit dans la boite en blanc 
+
+
+
 
 
 
