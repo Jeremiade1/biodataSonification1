@@ -67,11 +67,11 @@ Le synthétiseur est développé par Ogata pour sonofier les biodata.
 
 // Pour envoyer les datas capturer par la chip GSR, puis arduino vers pure data : 
 
-![354395823_770987821430554_8631611085778958948_n](https://github.com/Jeremiade1/biodataSonification1/assets/133068304/c7c9f558-fa46-4e61-a79a-81088aebdb66)
   - brancher les jumperwire dans le arduino
     - rouge: 5 Volt
     - noir: ground ( GND )
     - BLEU : ANALOG IN 0 
+
 ![354395823_770987821430554_8631611085778958948_n](https://github.com/Jeremiade1/biodataSonification1/assets/133068304/c9f2b430-cc1e-4b60-8818-88190a3d250f)
    
 
