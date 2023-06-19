@@ -48,7 +48,8 @@ Dans ce README, je vais tenter de résumer les matériaux et patchs que j'utilis
 
 
 //CODAGE ( Arduino) 
-https://github.com/Jeremiade1/biodataSonification1/blob/main/code/Code%20arduino
+[https://github.com/Jeremiade1/biodataSonification1/blob/main/code/Code%20arduino
+](https://github.com/Jeremiade1/biodataSonification1/blob/main/multisensors2/multisensors2.ino)
 
  - copier-coller sur arduino
 
