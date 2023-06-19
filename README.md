@@ -1,21 +1,21 @@
 # biodataSonification1
-GOOD MORNING USA 
+GOOD MORNING VIETNAM  
 
 Dans ce travail/recherche, je m'intéresse à la notion de databionosification.
-je désire perfomer pour les plantes, avec des instruments qui arrivent à raisonner avec leurs affects relatifs.
+je désire perfomer pour les plantes, avec des instruments qui arrivent à résonner avec leurs affects relatifs.
 
-Pour ce faire, j'ai d'abord scrupter le travail existant de mes pairs sur github, et youtube. 
+Pour ce faire, j'ai d'abord scruté le travail existant de mes pairs sur github, et youtube. 
 
-j'ai d'abord découvert le travail de Leslie Garcia. Son projet Pulsum Plantae (https://github.com/Lessnullvoid/Pulsum-Plantae) fut la base de mon exploration autour de la biodatasonificatin. 
+j'ai découvert le travail de Leslie Garcia. Son projet Pulsum Plantae (https://github.com/Lessnullvoid/Pulsum-Plantae) fut la base de mon exploration autour de la biodatasonification. 
 Son github fournit une base solide sur les procédés et dévelopemment nécessaire. 
 
-J'ai aussi choisi d'utiliser Pure Data, pour synthoniser les data capter de mes plantes. Le youtubeur et artiste audivisuel, Takumi Ogata, est une source que j'ai pu consulté de manière hebdomadaire pour ce qui était du développement sur Pd. (https://www.youtube.com/@SoundSimulator/videos) 
+J'ai aussi choisi d'utiliser Pure Data, pour synthoniser les données captées de mes plantes. Le youtubeur et artiste audivisuel, Takumi Ogata, est une source que j'ai pu consulté de manière hebdomadaire pour ce qui était du développement sur Pd. (https://www.youtube.com/@SoundSimulator/videos) 
 
-Dans ce README, je vais tenter de résumer les matériaux et patch que j'utilise pour reflèter la notion de opensource qui m'a permi d'apprendre généreusement dans ce champ d'expertise.
+Dans ce README, je vais tenter de résumer les matériaux et patchs que j'utilise pour reflèter la notion de opensource qui m'a permi d'apprendre généreusement dans ce champ d'expertise.
 
 
 //MATÉRIEL:
-(MAC)
+ - (Mac ou autres)
 
 - Arduino Duemilanove
   ![354442546_806576880714725_6290857087937855877_n](https://github.com/Jeremiade1/biodataSonification1/assets/133068304/f333d119-b51d-4642-8524-e2abb30fb87c)
@@ -27,26 +27,41 @@ Dans ce README, je vais tenter de résumer les matériaux et patch que j'utilise
   ![353130701_818002053007148_2358090501214796663_n](https://github.com/Jeremiade1/biodataSonification1/assets/133068304/41d9a563-d923-4ee9-a1c4-21af5356c808)
 
 - une chip GSR v1.2
-  ![354442538_967026061192193_6853380425506041961_n](https://github.com/Jeremiade1/biodataSonification1/assets/133068304/6f163f21-d0d6-4af1-bfa8-5c045796c6b9)
+ ![GSR](https://github.com/Jeremiade1/biodataSonification1/assets/133068304/85a38e7d-4b3f-4ffb-90e1-2559ad28a9be)
+ https://wiki.seeedstudio.com/Grove-GSR_Sensor/
+
+- la partie senseur a été remplacer par d'autres électrodes ( sur dijikey: 1568-1803-ND ) 
+  ceux-ci sont été hacker pour ''fiter'' avec les electrodes
+  
+  ![353102774_747490517124874_2244645358293791423_n](https://github.com/Jeremiade1/biodataSonification1/assets/133068304/1092ac9b-3161-42ad-97d3-26bd57e44d3a)
 
 - des jumperwire de couleurs 
-   ![354422352_646363777002375_537094724174746239_n](https://github.com/Jeremiade1/biodataSonification1/assets/133068304/b85bd435-082f-410a-a72d-c6fb99adfaaf)
+  ![354422352_646363777002375_537094724174746239_n](https://github.com/Jeremiade1/biodataSonification1/assets/133068304/b85bd435-082f-410a-a72d-c6fb99adfaaf)
 
- - des gel electrodes 
-   ![354411971_166035629782804_1645680762681585431_n](https://github.com/Jeremiade1/biodataSonification1/assets/133068304/1758154d-9256-4cb3-8827-17d9cd3686cb)
+ - des gel electrodes  
+  ![354411971_166035629782804_1645680762681585431_n](https://github.com/Jeremiade1/biodataSonification1/assets/133068304/1758154d-9256-4cb3-8827-17d9cd3686cb)
+   
+  sur  https://www.amazon.ca/dp/B08XXVW3PK?psc=1&ref=ppx_yo2ov_dt_b_product_details 
+       *il existe problablement une alternative, mais j'utilise ceux-ci
 
 
 
 
 //CODAGE ( Arduino) 
-https://github.com/Jeremiade1/biodataSonification1/tree/main/code/bonjoursensor_copy_20230614115523
+https://github.com/Jeremiade1/biodataSonification1/blob/main/code/Code%20arduino
+
+ - copier-coller sur arduino
 
 //Patch Pure data
+https://github.com/Jeremiade1/biodataSonification1/blob/main/code/pure%20data/Biodata.pd
+
+- télecharger le zip et ouvrez la patch Pd
+
 
 <img width="964" alt="Capture d’écran, le 2023-06-14 à 11 02 37" src="https://github.com/Jeremiade1/biodataSonification1/assets/133068304/e5342c7c-c58f-416c-a1d4-c66c2bc65231">
 
 Dans cette patch, il y a un port de arduino vers Pd, un synthétiseur qui transforme les data en objets sonore, et un visualisateur 
-Le synthétiseur est développé par Ogata pour sonofier les biodata. 
+Le synthétiseur est développé par Ogata pour sonofier les biodata. Elle a été aussi fait pour accomoder un photosenseur, mais cela est facultatif 
 
 
 <img width="942" alt="Capture d’écran, le 2023-06-14 à 10 42 03" src="https://github.com/Jeremiade1/biodataSonification1/assets/133068304/9703673c-e9f3-4685-8860-fbbe5600b27">
@@ -108,6 +123,9 @@ Maintenant vous devriez avoir du son, provonant d'une résistance électrique d'
 Pour modifier ce son, augmenter le pitch, utiliser le slider vertical ( celui en vert)
 
 humidifier les electrodes avec de l'eau( cela marche le mieux avec un spray gun) 
+
+ici une exemple filmer de mes expérimentations
+https://youtube.com/shorts/spOaQiQdZQg?feature=share
 
 
 
