@@ -81,6 +81,7 @@ Il y a aussi un drum machine réalisé à partir de données récupérées de mo
 voir la video de Ph Andrew R sur youtube pour mieux comprendre
 https://www.youtube.com/watch?v=wYlOw8YXoBs&t=641s&ab_channel=QCGInteractiveMusic pour comprendre le fonctionnement
 
+// Bugs Iemlib 
 
 <img width="942" alt="Capture d’écran, le 2023-06-14 à 10 42 03" src="https://github.com/Jeremiade1/biodataSonification1/assets/133068304/9703673c-e9f3-4685-8860-fbbe5600b27">
 
