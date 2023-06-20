@@ -47,7 +47,9 @@ Dans ce README, je vais tenter de résumer les matériaux et patchs que j'utilis
 
   //PATCH V3 
   j'utilise aussi maintenant photosenseur basic 
+  
   ![355462796_654696529466158_2656528281690766700_n](https://github.com/Jeremiade1/biodataSonification1/assets/133068304/9a8a81c6-65c9-45cb-ad10-edc3b703ce4d)
+  
   celui-ci a été soudé sur une plaquette avec un résistor 10k.
   voici un exemple de circuit possible pour l'intégrer 
   
