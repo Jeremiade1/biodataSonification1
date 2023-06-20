@@ -127,22 +127,17 @@ pour commencer à envoyer les datas de arduino vers Pd :
   
 <img width="496" alt="Capture d’écran, le 2023-06-14 à 11 35 06" src="https://github.com/Jeremiade1/biodataSonification1/assets/133068304/8a19d58b-4cf5-4943-929e-a7ca90f88671">
 
-//V3 du sonificateur
-
- J'utilise dans ce simple circuit pour connecter un photosenseur 
-![355462796_654696529466158_2656528281690766700_n](https://github.com/Jeremiade1/biodataSonification1/assets/133068304/7147b5d6-a042-4dc4-96f3-e1b934fd34a4)
-
 
 
 
 
 // Astuces de modulation 
 
-Maintenant vous devriez avoir du son, provonant d'une résistance électrique d'une plante ou autre.
+Maintenant vous devriez avoir du son, provonant d'une résistance électrique d'une plante ou autre, ainsi que provenant du photosenseur. Vous pouvez possisionné celui près de la plante pour qu'elle puisse intéragir avec le photosenseur. 
+Ce sont est traduit dans la patch par un noise maker. L'intensité de la lumière le contrôle. 
 
-Pour modifier ce son, augmenter le pitch, utiliser le slider vertical ( celui en vert)
-
-humidifier les electrodes avec de l'eau( cela marche le mieux avec un spray gun) 
+Aussi, humidifier les electrodes avec de l'eau( cela marche le mieux avec un spray gun) pour obtenir une meilleur conductivité.
+Cela affectera le pitch du FM Synth.
 
 ici une exemple filmer de mes expérimentations
 https://youtube.com/shorts/spOaQiQdZQg?feature=share
