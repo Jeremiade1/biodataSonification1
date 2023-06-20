@@ -74,7 +74,9 @@ https://github.com/Jeremiade1/biodataSonification1/blob/main/pure%20data/Biodata
 
 Dans cette patch, il y a un port de arduino vers Pd, un synthétiseur qui transforme les data en objets sonore, un visualisateur 
 Le synthétiseur est développé par Ogata pour sonofier les biodata. Elle a été aussi fait pour accomoder un photosenseur, mais cela est facultatif 
-Il y a aussi un drumbass réalisé à partir de données récupérées de mon array 2. Celui-ci mesurait la résistance électrique de la plante. Il est transformé pour alimenter le drum machine
+Il y a aussi un drum machine réalisé à partir de données récupérées de mon array 2. Celui-ci mesurait la résistance électrique de la plante. Il est transformé pour alimenter le drum machine
+voir la video de Ph Andrew R sur youtube
+https://www.youtube.com/watch?v=wYlOw8YXoBs&t=641s&ab_channel=QCGInteractiveMusic pour comprendre le fonctionnement
 
 
 <img width="942" alt="Capture d’écran, le 2023-06-14 à 10 42 03" src="https://github.com/Jeremiade1/biodataSonification1/assets/133068304/9703673c-e9f3-4685-8860-fbbe5600b27">
@@ -133,11 +135,15 @@ pour commencer à envoyer les datas de arduino vers Pd :
 
 // Astuces de modulation 
 
-Maintenant vous devriez avoir du son, provonant d'une résistance électrique d'une plante ou autre, ainsi que provenant du photosenseur. Vous pouvez possisionné celui près de la plante pour qu'elle puisse intéragir avec le photosenseur. 
-Ce sont est traduit dans la patch par un noise maker. L'intensité de la lumière le contrôle. 
+Maintenant vous devriez avoir du son, provonant d'une résistance électrique d'une plante ou autre, ainsi que provenant du photosenseur. Vous pouvez positionner celui près de la plante pour qu'elle puisse intéragir avec le photosenseur. 
+Ce son est traduit dans la patch par un noise maker. L'intensité de la lumière le contrôle. 
 
-Aussi, humidifier les electrodes avec de l'eau( cela marche le mieux avec un spray gun) pour obtenir une meilleur conductivité.
+Aussi, humidifier les electrodes avec de l'eau (cela marche le mieux avec un spray gun) pour obtenir une meilleur conductivité.
 Cela affectera le pitch du FM Synth.
+
+Pour contrôler le beatmaker, vous devez dessiner une courbe dans le tableau en haut à gauche. 
+
+
 
 ici une exemple filmer de mes expérimentations
 https://youtube.com/shorts/spOaQiQdZQg?feature=share
