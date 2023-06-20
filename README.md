@@ -73,9 +73,12 @@ https://github.com/Jeremiade1/biodataSonification1/blob/main/pure%20data/Biodata
 
 
 Dans cette patch, il y a un port de arduino vers Pd, un synthétiseur qui transforme les data en objets sonore, un visualisateur 
+
 Le synthétiseur est développé par Ogata pour sonofier les biodata. Elle a été aussi fait pour accomoder un photosenseur, mais cela est facultatif 
+
 Il y a aussi un drum machine réalisé à partir de données récupérées de mon array 2. Celui-ci mesurait la résistance électrique de la plante. Il est transformé pour alimenter le drum machine
-voir la video de Ph Andrew R sur youtube
+
+voir la video de Ph Andrew R sur youtube pour mieux comprendre
 https://www.youtube.com/watch?v=wYlOw8YXoBs&t=641s&ab_channel=QCGInteractiveMusic pour comprendre le fonctionnement
 
 
