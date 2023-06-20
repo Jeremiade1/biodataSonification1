@@ -45,6 +45,15 @@ Dans ce README, je vais tenter de résumer les matériaux et patchs que j'utilis
        *il existe problablement une alternative, mais j'utilise ceux-ci
 
 
+  //PATCH V3 
+  j'utilise aussi maintenant photosenseur basic 
+  ![355462796_654696529466158_2656528281690766700_n](https://github.com/Jeremiade1/biodataSonification1/assets/133068304/9a8a81c6-65c9-45cb-ad10-edc3b703ce4d)
+  celui-ci a été soudé sur une plaquette avec un résistor 10k.
+  voici un exemple de circuit possible pour l'intégrer 
+  
+![355553484_782159223540816_4592945429335962977_n](https://github.com/Jeremiade1/biodataSonification1/assets/133068304/8dbbc38c-9d21-45ee-b6da-62e553eadc38)
+
+
 
 
 //CODAGE ( Arduino) 
@@ -53,16 +62,17 @@ Dans ce README, je vais tenter de résumer les matériaux et patchs que j'utilis
 
  - copier-coller sur arduino
 
-//Patch Pure data
-https://github.com/Jeremiade1/biodataSonification1/blob/main/code/pure%20data/Biodata.pd
+//Patch Pure data v3
+https://github.com/Jeremiade1/biodataSonification1/blob/main/pure%20data/BiodataV3.pd
 
 - télecharger le zip et ouvrez la patch Pd
 
+<img width="1282" alt="Capture d’écran, le 2023-06-20 à 16 28 03" src="https://github.com/Jeremiade1/biodataSonification1/assets/133068304/fae09aaf-8f64-4efb-9885-3e2b7019a59e">
 
-<img width="964" alt="Capture d’écran, le 2023-06-14 à 11 02 37" src="https://github.com/Jeremiade1/biodataSonification1/assets/133068304/e5342c7c-c58f-416c-a1d4-c66c2bc65231">
 
-Dans cette patch, il y a un port de arduino vers Pd, un synthétiseur qui transforme les data en objets sonore, et un visualisateur 
+Dans cette patch, il y a un port de arduino vers Pd, un synthétiseur qui transforme les data en objets sonore, un visualisateur 
 Le synthétiseur est développé par Ogata pour sonofier les biodata. Elle a été aussi fait pour accomoder un photosenseur, mais cela est facultatif 
+Il y a aussi un drumbass réalisé à partir de données récupérées de mon array 2. Celui-ci mesurait la résistance électrique de la plante. Il est transformé pour alimenter le drum machine
 
 
 <img width="942" alt="Capture d’écran, le 2023-06-14 à 10 42 03" src="https://github.com/Jeremiade1/biodataSonification1/assets/133068304/9703673c-e9f3-4685-8860-fbbe5600b27">
@@ -114,6 +124,13 @@ pour commencer à envoyer les datas de arduino vers Pd :
   pour confirmer, dans la fenêtre principal, vous devriez recevoir ce message venant de [comport] 
   
 <img width="496" alt="Capture d’écran, le 2023-06-14 à 11 35 06" src="https://github.com/Jeremiade1/biodataSonification1/assets/133068304/8a19d58b-4cf5-4943-929e-a7ca90f88671">
+
+//V3 du sonificateur
+
+ J'utilise dans ce simple circuit pour connecter un photosenseur 
+![355462796_654696529466158_2656528281690766700_n](https://github.com/Jeremiade1/biodataSonification1/assets/133068304/7147b5d6-a042-4dc4-96f3-e1b934fd34a4)
+
+
 
 
 
