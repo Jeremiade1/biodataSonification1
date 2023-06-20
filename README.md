@@ -150,8 +150,9 @@ Pour contrôler le beatmaker, vous devez dessiner une courbe dans le tableau en 
 
 
 ici des exemples de mes expérimentations
-https://youtube.com/shorts/spOaQiQdZQg?feature=share
-](https://www.youtube.com/watch?v=Xk4IgAZEi7I&ab_channel=jeremiebrodeur)https://www.youtube.com/watch?v=Xk4IgAZEi7I&ab_channel=jeremiebrodeur
+- https://youtube.com/shorts/spOaQiQdZQg?feature=share
+
+- ](https://www.youtube.com/watch?v=Xk4IgAZEi7I&ab_channel=jeremiebrodeur)https://www.youtube.com/watch?v=Xk4IgAZEi7I&ab_channel=jeremiebrodeur
 
 
 
